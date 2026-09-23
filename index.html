@@ -21,7 +21,8 @@
     h2 { margin-bottom: 16px; font-size: 1.25rem; letter-spacing: -.03em; }
     section p:last-child { margin-bottom: 0; }
     .interests { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 0; list-style: none; }
-    .interests li { padding: 8px 14px; background: var(--blue-soft); color: #284e9b; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+    .interests li { padding: 8px 14px; background: var(--blue-soft); color: #284e9b; border-radius: 999px; font-weight: 600; font-size: .95rem; transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease; }
+    .interests li:hover { transform: translateY(-3px); background: #e2edff; box-shadow: 0 7px 14px rgba(54, 103, 201, .18); }
     .contacts { display: grid; gap: 10px; }
     a { color: var(--blue); overflow-wrap: anywhere; text-underline-offset: 3px; }
     a:hover { color: #214d9f; }
